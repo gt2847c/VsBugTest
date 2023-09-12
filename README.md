@@ -16,14 +16,4 @@ The results object is still at least partially visible as expending the Non-Publ
 
 <img width="884" alt="debug screen 3" src="https://github.com/gt2847c/VsBugTest/assets/8898797/11f42501-1987-490a-b51d-c10dd498831b">
 
-Added an addition section that does not use "using" statements to prevent disposal.  If you stop the code at line 28 and expand the 
-IEnumerable records1 and the results disappear, the ToList() call on line 29 will have 0 entries.  If you don't expand the records1 
-object, then ToList() will have 4,105 entries.
-
-Expanded entry:
-
-<img width="699" alt="EmptyList" src="https://github.com/gt2847c/VsBugTest/assets/8898797/4d3668a9-82f7-4e14-952b-c737e6b997a2">
-
-
-Unexpanded entry:
-<img width="985" alt="Full list" src="https://github.com/gt2847c/VsBugTest/assets/8898797/02fc571f-b082-40ee-b77b-319ce441754c">
+Added an addition section that does not use "using" statements to prevent disposal. 
