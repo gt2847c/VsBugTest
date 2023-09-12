@@ -21,6 +21,7 @@ IEnumerable records1 and the results disappear, the ToList() call on line 29 wil
 object, then ToList() will have 4,105 entries.
 
 Expanded entry:
+
 <img width="699" alt="EmptyList" src="https://github.com/gt2847c/VsBugTest/assets/8898797/4d3668a9-82f7-4e14-952b-c737e6b997a2">
 
 
