@@ -17,7 +17,6 @@ namespace VSBugTest
                 }
             }
 
-            /*
             // This section does not have using() so won't dispose.  If you stop after records1 at the ;
             // and view the Locals entry - expand the records1.Results View and scroll until the results 
             // disappear, then step to the ToList(), "list" will be empty.  
@@ -29,7 +28,6 @@ namespace VSBugTest
             ;
             var list = records1.ToList();
             ;
-            */
 
 
         }
